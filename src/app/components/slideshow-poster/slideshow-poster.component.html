@@ -1,0 +1,10 @@
+
+  <swiper-container [slidesPerView]="3.3" [freeMode]="true">
+    <swiper-slide *ngFor="let pelicula of peliculas">
+
+      <ion-card mode="md" (click)="verDetalle(pelicula.id)">
+        <img [src]="pelicula.poster_path| imagen" class="poster">
+      </ion-card>
+
+    </swiper-slide>
+  </swiper-container>
