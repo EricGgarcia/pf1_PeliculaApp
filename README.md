@@ -13,19 +13,24 @@ Aplicación móvil desarrollada con Ionic y Angular para mostrar información so
 ### Instrucciones de instalación y ejecución:
 
 1. **Clonar el repositorio**:
--- git clone <URL-del-repositorio>
--- cd pf1_PeliculaApp-master
 
-3. Instalar dependencias:
--- npm install
+git clone <URL-del-repositorio>
+cd pf1_PeliculaApp-master
 
-5. Configurar Firebase:
--- Asegúrate de tener un proyecto en Firebase.
--- Coloca tus configuraciones dentro de .firebase/ y firebase.json si necesitas personalizarlo.
+2. Instalar dependencias:
 
-6. Ejecutar en navegador:
--- ionic serve
+npm install
+
+3. Configurar Firebase:
+
+Asegúrate de tener un proyecto en Firebase.
+Coloca tus configuraciones dentro de .firebase/ y firebase.json si necesitas personalizarlo.
+
+4. Ejecutar en navegador:
+
+ionic serve
 
 5.Ejecutar en dispositivo o emulador Android:
--- ionic capacitor add android
--- ionic capacitor open android
+
+ionic capacitor add android
+ionic capacitor open android
